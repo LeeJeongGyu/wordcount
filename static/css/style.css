@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+h1{
+    color: #522685;
+    font-family: 'Jua', sans-serif;
+}
+h2{
+    font-family: 'Jua', sans-serif;
+}
+button{
+    font-family: 'Jua', sans-serif;
+}
+p{
+    background-color: #000000;
+    padding: 20px;
+}

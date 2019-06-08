@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+    <head>
+            <title>Word Count</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+        <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">    
+    </head>
+
+    <body>
+        <h1>About this page...</h1>
+        <br>
+        <p>이 서비스는 단어를 카운트하는 서비스입니다.</p>
+        <button type="button" class="btn btn-info" onclick="location.href='{% url 'home' %}'">돌아가기</button>
+    </body>
+</html>
